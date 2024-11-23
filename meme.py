@@ -6,7 +6,7 @@ import random
 def show_meme():
     window = tk.Tk()
     window.title("Panic Button Activated!")
-    
+    window.attributes('-topmost', True)
     # ปิด maximize button
     window.resizable(False, False)
     
